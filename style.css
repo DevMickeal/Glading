@@ -458,6 +458,9 @@ header {
 .video_advert h2 {
     font-size: 28px;
 }
+.panel-group .panel-title {
+  font-size: 12px;
+}
   }
   
   @media screen and (max-width: 1290px) {
