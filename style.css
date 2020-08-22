@@ -127,6 +127,7 @@ header {
 /* VIDEO ADVERT SECTION */
 .video_advert {
     padding: 60px 0;
+
   }
   
   .video_advert .play_container {
@@ -221,101 +222,101 @@ header {
   }
   
   /* FAQ SECTION */
-  .faq {
-    padding: 50px 0;
-  }
-  
-  .faq h6 {
-    color: #474748;
-    font-family: "Proxima Regular Bold";
-    font-size: 18px;
-  }
-  
-  .faq h2 {
-    color: #00afef;
-    font-family: "Proxima Regular Bold";
-    font-size: 45px;
-  }
-  
-  .panel-group {
-    border: 1px solid #bebebe;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .panel-group .panel {
-    background: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    margin-bottom: 5px;
-    border-radius: 0;
-  }
-  
-  .panel-group .panel-heading {
-    padding-bottom: 5px;
-    padding-left: 15px;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    align-items: center;
-  }
-  
-  .panel-group .panel-title {
-    font-size: 18px;
-    color: #474748;
-    font-family: "Proxima Regular Bold";
-    text-decoration: none;
-    padding-right: 20px;
-    margin-top: 15px;
-  }
-  
-  .panel-group .panel-heading + .panel-collapse > .list-group,
-  .panel-group .panel-heading + .panel-collapse > .panel-body {
-    border-top: none;
-  }
-  
-  .panel-group .panel-heading > a:after {
-    float: right;
-  }
-  
-  .panel-group .panel-heading .panel-title.collapsed:after {
-    float: right;
-  }
-  
-  .panel-group .panel-heading > a:after {
-    display: inline-block;
-    vertical-align: middle;
-    font-family: "Font Awesome 5 Free";
-    font-size: 16px;
-    content: "\f077";
-    margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-weight: 900;
-    align-self: center;
-    align-items: center;
-    -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  
-  .panel-group .panel-heading .panel-title.collapsed:after {
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    transform: rotate(180deg);
-  }
-  
-  .panel-group .panel-body {
-    padding: 0 15px 15px 15px;
-    color: #6c7481;
-  }
-  
-  .panel-group .panel-body a {
-    color: #2b92e1;
-    font-family: "Proxima Regular Bold";
-    text-decoration: none;
-  }
+.faq {
+  padding: 50px 0;
+}
+
+.faq h6 {
+  color: #474748;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.faq h2 {
+  color: #00afef;
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.panel-group {
+  border: 1px solid #bebebe;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.panel-group .panel {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  margin-bottom: 5px;
+  border-radius: 0;
+}
+
+.panel-group .panel-heading {
+  padding-bottom: 5px;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.panel-group .panel-title {
+  font-size: 18px;
+  color: #474748;
+  font-weight: 700;
+  text-decoration: none;
+  padding-right: 20px;
+  margin-top: 15px;
+}
+
+.panel-group .panel-heading + .panel-collapse > .list-group,
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: none;
+}
+
+.panel-group .panel-heading > a:after {
+  float: right;
+}
+
+.panel-group .panel-heading .panel-title.collapsed:after {
+  float: right;
+}
+
+.panel-group .panel-heading > a:after {
+  display: inline-block;
+  vertical-align: middle;
+  font-family: "Font Awesome 5 Free";
+  font-size: 16px;
+  content: "\f077";
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-self: center;
+  align-items: center;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.panel-group .panel-heading .panel-title.collapsed:after {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-group .panel-body {
+  padding: 0 15px 15px 15px;
+  color: #6c7481;
+}
+
+.panel-group .panel-body a {
+  color: #2b92e1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
   
   /* CALL TO ACTION SECTION */
   .call__to__action {
