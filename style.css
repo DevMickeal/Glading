@@ -459,8 +459,8 @@ header {
     font-size: 28px;
 }
 .panel-group .panel-title {
-  font-size: 10px;
-  padding-right: 5px;
+  font-size: 8px;
+  padding: 0;
 }
   }
   
