@@ -456,14 +456,17 @@ header {
     font-size: 28px;
 }
 .panel-group .panel-title {
+  font-size: 14px;
+  margin: 0;
+  padding: 5px;
+}
+.panel-group .panel-heading {
   font-size: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  margin: 10px 0;
+  align-items: center;
 }
   }
-  
-  @media screen and (max-width: 1290px) {
-    .panel-group .panel-title {
-      font-size: 16px;
-    }
-  }
-  
+
   
