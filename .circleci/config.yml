@@ -1,16 +1,16 @@
 version: 2.1
 
-jobs: # basic units of work in a run
+job: 
   build:
-    docker: # use the Docker executor
+    docker:
       - image: alpine:lates
- steps:
-    checkout:
+  steps:
+      -checkout:
       - run:
-          name: "Print an env var stored in a Context"
+          name: test-env-vars
           command: echo $(TestingEnvVars}
 
 workflows:
-test-env-vars:
+  test-env-vars:
     jobs:
       - build
