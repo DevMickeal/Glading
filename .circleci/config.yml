@@ -1,11 +1,11 @@
 version: 2.1
 
-job: 
-  build:
+jobs: 
+  Test-env-var:
     docker:
-      - image: alpine:lates
-  steps:
-      -checkout:
+      - image: alpine:latest
+    steps:
+      - checkout
       - run:
           name: test-env-vars
           command: echo $(TestingEnvVars}
@@ -13,4 +13,4 @@ job:
 workflows:
   test-env-vars:
     jobs:
-      - build
+      - Test-env-var
