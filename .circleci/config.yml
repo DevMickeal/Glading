@@ -4,6 +4,7 @@ jobs: # basic units of work in a run
   build:
     docker: # use the Docker executor
       - image: alpine:lates
+ steps:
     checkout:
       - run:
           name: "Print an env var stored in a Context"
