@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs: 
-  Test-env-var:
+  build:
     docker:
       - image: alpine:latest
     steps:
@@ -13,4 +13,4 @@ jobs:
 workflows:
   test-env-vars:
     jobs:
-      - Test-env-var
+      - build
